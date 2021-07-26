@@ -1,8 +1,12 @@
 # ProgressiveBudget
 
 # Unit 19 PWA Homework: Online/Offline Budget Trackers
+https://lit-harbor-62441.herokuapp.com/
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+# Project Description
+This tool is an application that allows you to add or subtract transaction amounts to keep track of your expenses, online or offline.   
+
+The ask: Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
@@ -15,6 +19,16 @@ Offline Functionality:
 When brought back online:
 
   * Offline entries should be added to tracker.
+
+# Usage Information
+Use this application online or offline, enter your title and amount and whether it is a deposit or withdrawl. 
+
+# Installation Instructions
+No additional installation required.
+
+# Questions
+If you have any questions, please do not hesitate to reach out at alicia.krolak4@gmail.com or on LinkedIn at Alicia Krolak.
+You can find me on GitHub as aliciajk. 
 
 ## User Story
 AS AN avid traveller
@@ -33,20 +47,3 @@ THEN that will be shown on the page, and added to their transaction history when
 
 - - -
 
-
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
-- - -
-
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
