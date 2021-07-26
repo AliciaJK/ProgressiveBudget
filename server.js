@@ -16,11 +16,11 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/progbudget',
+  process.env.MONGO_URI || 'mongodb://localhost/progbudget',
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
+    // useUnifiedTopology: true,
+    // useCreateIndex: true,
     useFindAndModify: false,
   }
   );
