@@ -1,15 +1,13 @@
 const FILES_TO_CACHE = [
-  './',
-  './index.html',
-  './style.css',
-  './icons/icon-192x192.png',
-  './icons/icon-512x512.png',
+  "./index.html",
+  "./icons/icon-192x192.png",
+  "./icons/icon-512x512.png",
+  "./styles.css",
   "./db.js",
   "./index.js",
   "./manifest.webmanifest"
 ];
 
-// THE FOLLOWING IS FROM THE MINI PROJECT
 
 const PRECACHE = 'precache-v1';
 const RUNTIME = 'runtime';
@@ -62,4 +60,3 @@ self.addEventListener('fetch', (event) => {
     );
   }
 });
-
